@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: aqua;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+    width: 400px;
+    min-height: 130px;
+}
+main input, button {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 5px;
+}
