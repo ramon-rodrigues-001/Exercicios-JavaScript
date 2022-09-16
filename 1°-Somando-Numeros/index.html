@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ancora CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Somando</title>
+</head>
+<body>
+    <label for="in1">Primeiro Numero: </label>
+    <input type="number" name="n1" id="in1"> <br>
+
+    <label for="in2">Segundo Numero: </label>
+    <input type="number" name="n2" id="in2"> <br> <br>
+
+    <label for="iescolha">Escolha: </label>
+    <select name="escolha" id="iescolha">
+        <option class="op" value="somar">Somar</option>
+        <option class="op" value="subitrair">Subitrair</option>
+        <option class="op" value="multiplicar" selected>Multiplicar</option>
+        <option class="op" value="dividir">Dividir</option>
+    </select> <br> <br>
+
+    <button onclick="clicar()">Confirmar ></button>
+
+    <div id="res">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

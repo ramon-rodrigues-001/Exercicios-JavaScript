@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    font: bold 1.1em Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    margin: 10px;
+}

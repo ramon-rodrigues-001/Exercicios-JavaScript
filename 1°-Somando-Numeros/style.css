@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    font: bold 1.1em Arial;
+    text-align: center;
+    padding-top: 50px;
+}
+
+input {
+    padding: 3px;
+    max-width: 100px;
+}
+
+select {
+    font-weight: bold;
+    width: 100px;
+}
+
+button {
+    font-weight: bold;
+    padding: 5px 20px;
+}
